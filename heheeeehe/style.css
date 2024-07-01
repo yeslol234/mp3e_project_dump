@@ -1,0 +1,41 @@
+:root {
+    --modelColor: rgb(0, 149, 255);
+    --scriptColor: rgb(255, 4, 0);
+    --ideaColor: rgb(255, 221, 0);
+    --viewStatColor: rgb(148, 7, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    justify-content: center;
+    text-align: center;
+}
+button#ModelButton {
+    background-color: var(--modelColor);
+    border: 1px var(--modelColor);
+    border-radius: 0.3em;
+    color: white;
+}
+p#ModelStats {
+    color: var(--modelColor);
+}
+button#ScriptButton {
+    background-color: var(--scriptColor);
+    border: 1px var(--scriptColor);
+    border-radius: 0.3em;
+    color: white;
+}
+p#ScriptStats {
+    color: var(--scriptColor);
+}
+button#IdeaButton {
+  background-color: var(--ideaColor);
+  border: 1px var(--ideaColor);
+  border-radius: 0.3em;
+  color: white;
+}
+#Views {
+    color: var(--viewStatColor);
+}

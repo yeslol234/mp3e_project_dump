@@ -1,0 +1,18 @@
+{
+    "$schema": "./schema.json",
+    "theme": "dark",
+    "categories": [
+      {
+        "name": "Category 1",
+        "accent_color": "#ff5733",
+        "nodes": [
+          {
+            "name": "Node 1",
+            "inputs": 2,
+            "outputs": 1
+          }
+        ]
+      }
+    ]
+  }
+  

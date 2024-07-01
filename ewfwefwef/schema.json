@@ -1,0 +1,48 @@
+{
+    "type": "object",
+    "properties": {
+      "theme": {
+        "type": "string"
+      },
+      "categories": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "accent_color": {
+              "type": "string",
+              "format": "color"
+            },
+            "nodes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "inputs": {
+                    "type": "integer"
+                  },
+                  "outputs": {
+                    "type": "integer"
+                  },
+                  "accent_color": {
+                    "type": "string",
+                    "format": "color" 
+                  }
+                },
+                "required": ["name", "inputs", "outputs"]
+              }
+            }
+          },
+          "required": ["name", "nodes"]
+        }
+      }
+    },
+    "required": ["theme", "categories"]
+  }
+  

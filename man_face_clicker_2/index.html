@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page-container">
+        <div class="sidebar">
+            <div class="content">
+                <!-- Your sidebar text content goes here -->
+                <h4>STATS</h4>
+                <p>nothing here :)</p>
+                <p>...yet</p>
+                <p>_____________________</p>
+                <h3>Upgrades</h3>
+                <img width="75" height="75" src="images/download.png"></img>&nbsp;<p>left <b>MAN</b> leg <button class="buy" id="buy-left-legbtn">Buy</button></p>
+                <p>+1 manfaces per click</p>
+                <p>price: <span id="lmlprice">0</span></p>
+
+            </div>
+            <div class="arrow" onclick="toggleSidebar()">
+                &lt;
+            </div>
+        </div>
+        <div id="main-content">
+            <button id="btn" center></button>
+            <p center>Manfaces: <span id="manfaces">0</span></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

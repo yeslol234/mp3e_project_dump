@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Consolas';
+    src: url('Consolas.woff2') format('woff2'),
+        url('Consolas.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family: 'Consolas', monospace;
+}
+#header {
+    text-align: center;
+}

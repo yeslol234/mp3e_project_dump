@@ -1,0 +1,34 @@
+{
+    "theme": "light",
+    "categories": [
+      {
+        "name": "Category 1",
+        "nodes": [
+          {
+            "name": "Add",
+            "inputs": [
+                {
+                    "type": "number",
+                    "name": "Additive"
+                },
+                {
+                   "type": "number",
+                   "name": "Additive" 
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "number",
+                    "name": "Sum"
+                }
+            ],
+            "accent_color": "#ff5733"
+          },
+          {
+            
+          }
+        ]
+      }
+    ]
+  }
+  

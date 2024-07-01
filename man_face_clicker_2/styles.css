@@ -1,0 +1,96 @@
+*[center] {
+    display: block;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#btn {
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+    background-size: 100%;
+    background-image: url("/images/heh.png");
+    border-radius: 8px;
+    background-color: white;
+    border-color: black;
+    transition-duration: 0.3s;
+}
+
+#btn:hover {
+    border-radius: 15px;
+	transition-duration: 0.5s;
+}
+
+#btn:active {
+    border-radius: 25px;
+    -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -200px; /* Initial position, off the screen */
+    width: 200px;
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+    background-size: 100% 300%;
+    border-width: 4px;
+    border-color:rgb(0, 0, 0);
+    border: solid;
+    transition: left 0.3s ease-in-out;
+    animation: slideDownLoop 20s linear infinite;
+  }
+  
+  .sidebar.open {
+    left: 0; /* When open, set left to 0 to reveal the sidebar */
+  }
+  
+  .content {
+    padding: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    animation: slideDownText 20s linear infinite;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.25);
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar.open .arrow {
+    transform: rotate(180deg); /* Rotate arrow when sidebar is open */
+  }
+#main-content {
+    transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+@keyframes slideDownLoop {
+    0%, 100% {
+      background-position: 0 0; /* Start and end position at top */
+    }
+    50% {
+      background-position: 0 100%; /* Middle position at the bottom */
+    }
+  }
+@keyframes slideDownText {
+    0%, 100% {
+        color: white; /* Start and end position at top */
+      }
+      50% {
+        color: black; /* Middle position at the bottom */
+      }
+}

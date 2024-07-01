@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "js-tokens": "^8.0.0",
+    "xml-js": "^1.6.11"
+  }
+}

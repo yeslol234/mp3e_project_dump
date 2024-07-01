@@ -1,0 +1,15 @@
+{
+    "packages": {
+        "pre-fix": {
+            "author": "james3",
+            "description": "A simple break from manually putting semi-colons.",
+            "keywords": ["prefix-fixer", "backend"],
+            "versions": ["1.0.0","1.0.1"],
+            "downloads-weekly": 14,
+            "lisence": "MIT"
+        },
+        "graphics-js": {
+            
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@ghostedbread/graphics-js": "^1.0.9",
+    "node-fetch": "2.0",
+    "path": "^0.12.7"
+  }
+}

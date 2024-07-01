@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+    font-family: "Pixel";
+    width: 100%;
+}
+@font-face {
+    font-family: "Pixel";
+    src: url("fonts/Minecraft.ttf") format("truetype");
+}
+#main {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-color: rgba(0, 0, 139, 0.25);
+   backdrop-filter: blur(2px);
+   z-index: 0;
+}
+#main-content {
+  filter: none;
+  padding: 20px;
+  z-index: 2;
+}
+#play {
+   width: 200px;
+   height: 50px;
+   background-color: #36c95e;
+   box-shadow: 0 0 10px rgba(6, 19, 6, 0.5);
+   color: white;
+   font-size: 25px;
+   font-family: "Pixel";
+   letter-spacing: 2px;
+   text-align: left;
+   cursor: pointer;
+   z-index: 2;
+   border-color:#2fa84f;
+   border-style:solid;
+   border-bottom: solid 2px #247038;
+   transition: 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+   transform: scale(1.0);
+}
+#play:hover {
+    transform: scale(1.25);
+}

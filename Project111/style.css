@@ -1,0 +1,8 @@
+body {
+    font-family: system-ui;
+}
+#MainButton {
+    background-color:dodgerblue;
+    border: solid dodgerblue;border-radius: 0.3em;
+    color: white;
+}

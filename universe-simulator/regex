@@ -1,0 +1,4 @@
+#!/bin/bash
+# regex sh
+# version 1.0.0
+node regex.js $1 $2 $3 $4 $5 # Support 5 args

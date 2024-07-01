@@ -1,0 +1,15 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+.alignleft {
+   text-align: left; 
+   justify-content: left;
+}
+.alignright {
+    text-align: right; 
+    justify-content: right;
+}
+.aligncenter {
+    text-align: center; 
+    justify-content: center;
+}

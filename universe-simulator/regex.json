@@ -1,0 +1,7 @@
+{
+    "name": "Awesome",
+    "packages": [
+        "gcc-compiler@1.7",
+        "gcc-compiler@1.8"
+    ]
+}
